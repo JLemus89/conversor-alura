@@ -25,6 +25,7 @@ public class Temperatura extends JFrame {
                 String temperaturaOrigen = (String) TemperaturaOrigen.getSelectedItem();
                 String temperaturaDestino = (String) TemperaturaDestino.getSelectedItem();
                 double cantidad = Double.parseDouble(textField1.getText());
+
                 double resultado = 0;
                 assert temperaturaOrigen != null;
                 switch (temperaturaOrigen) {
@@ -32,6 +33,7 @@ public class Temperatura extends JFrame {
                         assert temperaturaDestino != null;
                         switch (temperaturaDestino) {
                             case "Celsius":
+
                                 resultado = cantidad;
                                 break;
                             case "Fahrenheit":

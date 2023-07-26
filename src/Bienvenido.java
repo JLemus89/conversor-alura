@@ -16,16 +16,6 @@ public class Bienvenido extends JFrame{
         super("Alura Converter");
         setContentPane(panel1);
 
-
-        salirButton.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent cerrar) {
-                dispose();
-                super.mouseClicked(cerrar);
-                System.exit(0);
-            }
-        });
-
         comboBox1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -55,6 +45,16 @@ public class Bienvenido extends JFrame{
                         dispose();
                         break;
                 }
+            }
+        });
+
+        salirButton.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent cerrar) {
+                JOptionPane.showMessageDialog(null, "Gracias por usar Alura Converter");
+                super.mouseClicked(cerrar);
+                System.exit(0);
+                dispose();
             }
         });
     }
