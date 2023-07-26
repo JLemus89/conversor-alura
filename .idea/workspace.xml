@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dfcd253-28ac-4b23-9526-947453e4a154" name="Changes" comment="" />
+    <list default="true" id="5dfcd253-28ac-4b23-9526-947453e4a154" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura-convert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Alura-convert.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divisas.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Divisas.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Divisas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medidas.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medidas.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Open.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Open.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Temperatura.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temperatura.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Temperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temperatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/form1.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/form1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,10 +48,33 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "324",
+    "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Usuario/OneDrive/Documents/Alura Latam/Java/challenge-2/ESP-conversor-moneda",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\OneDrive\Documents\Alura Latam\Java\challenge-2\Alura-convert" />
+      <recent name="C:\Users\Usuario\OneDrive\Documents\Alura Latam\Java\challenge-2\Alura-convert\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\OneDrive\Documents\Alura Latam\Java\challenge-2\Alura-convert\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,7 +83,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689205397510</updated>
+      <workItem from="1690162987131" duration="922000" />
+      <workItem from="1690165775409" duration="859000" />
+      <workItem from="1690223119941" duration="3000" />
+      <workItem from="1690241193664" duration="7722000" />
+      <workItem from="1690251785433" duration="20000" />
+      <workItem from="1690251832442" duration="269000" />
+      <workItem from="1690290471364" duration="328000" />
+      <workItem from="1690306917390" duration="13543000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

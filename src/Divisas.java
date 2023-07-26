@@ -9,7 +9,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import org.json.JSONObject;
 
-public class form3 extends JFrame {
+public class Divisas extends JFrame {
 
     private JComboBox MonedaOrigen;
     private JComboBox MonedaDestino;
@@ -20,7 +20,7 @@ public class form3 extends JFrame {
     private JLabel Titulo3;
     private JLabel CantidadConvertida;
 
-    public form3() {
+    public Divisas() {
         super("Alura Converter");
         setContentPane(panel3);
         convertirButton.addActionListener(new ActionListener() {
@@ -66,7 +66,7 @@ public class form3 extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                form1 dialog = new form1();
+                Bienvenido dialog = new Bienvenido();
                 dialog.setSize(400, 300);
                 dialog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 dialog.setVisible(true);

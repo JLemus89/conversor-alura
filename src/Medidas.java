@@ -4,7 +4,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-public class form4 extends JFrame  {
+public class Medidas extends JFrame  {
     private JComboBox MedidaOrigen;
     private JComboBox MedidaDestino;
     private JButton convertirButton;
@@ -14,7 +14,7 @@ public class form4 extends JFrame  {
     private JLabel Titulo4;
     private JLabel CantidadConvertida;
 
-    public form4() {
+    public Medidas() {
         super("Alura Converter");
         setContentPane(panel4);
 
@@ -442,7 +442,7 @@ public class form4 extends JFrame  {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                form1 dialog = new form1();
+                Bienvenido dialog = new Bienvenido();
                 dialog.setSize(400, 300);
                 dialog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 dialog.setVisible(true);
