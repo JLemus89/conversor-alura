@@ -97,14 +97,6 @@
           <text value="Convertir"/>
         </properties>
       </component>
-      <component id="19879" class="javax.swing.JButton" binding="atrásButton" default-binding="true">
-        <constraints>
-          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Atrás"/>
-        </properties>
-      </component>
       <component id="24a79" class="javax.swing.JComboBox" binding="MedidaDestino">
         <constraints>
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
@@ -124,6 +116,22 @@
             <item value="Pulgadas"/>
             <item value="Millas nauticas"/>
           </model>
+        </properties>
+      </component>
+      <component id="19879" class="javax.swing.JButton" binding="atrásButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Atrás"/>
+        </properties>
+      </component>
+      <component id="5c1a9" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Salir"/>
         </properties>
       </component>
     </children>

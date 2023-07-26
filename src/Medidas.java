@@ -13,6 +13,7 @@ public class Medidas extends JFrame  {
     private JTextField textField1;
     private JLabel Titulo4;
     private JLabel CantidadConvertida;
+    private JButton salirButton;
 
     public Medidas() {
         super("Alura Converter");
@@ -446,6 +447,15 @@ public class Medidas extends JFrame  {
                 dialog.setSize(400, 300);
                 dialog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 dialog.setVisible(true);
+                dispose();
+            }
+        });
+        salirButton.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent cerrar) {
+                JOptionPane.showMessageDialog(null, "Gracias por usar Alura Converter");
+                super.mouseClicked(cerrar);
+                System.exit(0);
                 dispose();
             }
         });
