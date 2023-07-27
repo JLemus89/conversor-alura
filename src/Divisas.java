@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import org.json.JSONObject;
+import java.text.DecimalFormat;
 
 public class Divisas extends JFrame {
 
@@ -24,6 +25,7 @@ public class Divisas extends JFrame {
     public Divisas() {
         super("Alura Converter");
         setContentPane(panel3);
+
         convertirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -53,15 +55,22 @@ public class Divisas extends JFrame {
                         double exchangeRate = rates.getDouble(toCurrency);
                         double convertedAmount = amount * exchangeRate;
 
-                        CantidadConvertida.setText(String.valueOf(convertedAmount));
+                        // Formatear el resultado con 7 decimales
+                        DecimalFormat decimalFormat = new DecimalFormat("#.#######");
+                        String resultadoFormateado = decimalFormat.format(convertedAmount);
+
+                        CantidadConvertida.setText(resultadoFormateado);
                     } else {
                         CantidadConvertida.setText("Error: Unable to fetch exchange rates.");
                     }
                 } catch (Exception ex) {
                     CantidadConvertida.setText("Error: " + ex.getMessage());
+                } finally {
+                    CantidadConvertida.setVisible(true);
                 }
             }
         });
+
 
         atrásButton.addMouseListener(new MouseAdapter() {
             @Override

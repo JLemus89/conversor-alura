@@ -3,6 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.text.DecimalFormat;
 
 public class Temperatura extends JFrame {
     private JComboBox TemperaturaOrigen;
@@ -74,8 +75,11 @@ public class Temperatura extends JFrame {
                         }
                         break;
                 }
-                    CantidadConvertida.setText(String.valueOf(resultado));
-                }
+                DecimalFormat decimalFormat = new DecimalFormat("#.#######");
+                String resultadoFormateado = decimalFormat.format(resultado);
+
+                CantidadConvertida.setText(resultadoFormateado);
+            }
         });
         atrásButton.addMouseListener(new MouseAdapter() {
             @Override
