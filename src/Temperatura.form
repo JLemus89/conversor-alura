@@ -14,7 +14,7 @@
         </constraints>
         <properties>
           <font size="20"/>
-          <text value="ALURA CONVERTER 🌡"/>
+          <text value="ALURA CONVERTER 🌡️"/>
         </properties>
       </component>
       <component id="76d49" class="javax.swing.JLabel">
@@ -31,7 +31,7 @@
         </constraints>
         <properties>
           <model>
-            <item value="--Seleccionar--"/>
+            <item value="---Seleccionar---"/>
             <item value="Celsius"/>
             <item value="Fahrenheit"/>
             <item value="Kelvin"/>
@@ -52,7 +52,7 @@
         </constraints>
         <properties>
           <model>
-            <item value="--Seleccionar--"/>
+            <item value="---Seleccionar---"/>
             <item value="Celsius"/>
             <item value="Fahrenheit"/>
             <item value="Kelvin"/>

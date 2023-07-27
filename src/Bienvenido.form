@@ -48,6 +48,9 @@
             <item value="💱 Divisas"/>
             <item value="📏 Longitud"/>
             <item value="🌡️ Temperatura"/>
+            <item value="⌛ Tiempo"/>
+            <item value="⚡ Velocidad"/>
+            <item value="🕳️ Volumen"/>
           </model>
         </properties>
       </component>

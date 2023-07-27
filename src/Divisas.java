@@ -29,9 +29,15 @@ public class Divisas extends JFrame {
         convertirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                String cantidadStr = textField1.getText();
+                if (cantidadStr.isEmpty()) {
+                    JOptionPane.showMessageDialog(Divisas.this, "Debe ingresar un valor para la cantidad.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+
                 String fromCurrency = (String) MonedaOrigen.getSelectedItem();
                 String toCurrency = (String) MonedaDestino.getSelectedItem();
-                double amount = Double.parseDouble(textField1.getText());
+                double amount = Double.parseDouble(cantidadStr);
 
                 try {
                     String apiUrl = "https://v6.exchangerate-api.com/v6/fe40a0b6f78de6373dba3c0c/latest/" + fromCurrency;

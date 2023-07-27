@@ -54,6 +54,9 @@ public class Bienvenido extends JFrame{
                         dialog3.setVisible(true);
                         dispose();
                         break;
+                    case "⌛ Tiempo", "⚡ Velocidad", "\uD83D\uDD73\uFE0F Volumen":
+                        JOptionPane.showMessageDialog(null, "Esta función se encuentra en desarrollo");
+                        break;
                 }
             }
         });

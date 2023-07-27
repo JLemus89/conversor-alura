@@ -24,9 +24,17 @@ public class Temperatura extends JFrame {
         convertirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                String cantidadStr = textField1.getText();
+                if (cantidadStr.isEmpty()) {
+                    JOptionPane.showMessageDialog(Temperatura.this, "Debe ingresar un valor para la cantidad.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+
                 String temperaturaOrigen = (String) TemperaturaOrigen.getSelectedItem();
                 String temperaturaDestino = (String) TemperaturaDestino.getSelectedItem();
-                double cantidad = Double.parseDouble(textField1.getText());
+                double cantidad = Double.parseDouble(cantidadStr);
+
 
                 double resultado = 0;
                 assert temperaturaOrigen != null;
