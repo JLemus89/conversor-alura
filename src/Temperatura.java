@@ -75,10 +75,10 @@ public class Temperatura extends JFrame {
                         }
                         break;
                 }
-                DecimalFormat decimalFormat = new DecimalFormat("#.#######");
+                DecimalFormat decimalFormat = new DecimalFormat("#.#####");
                 String resultadoFormateado = decimalFormat.format(resultado);
 
-                CantidadConvertida.setText(resultadoFormateado);
+                CantidadConvertida.setText(temperaturaDestino + ": " + resultadoFormateado);
             }
         });
         atrásButton.addMouseListener(new MouseAdapter() {

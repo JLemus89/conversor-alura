@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href=""><img src="[https://github.com/JLemus89/conversor-alura/blob/master/src/img/AluraConvert.png](https://github.com/JLemus89/conversor-alura/blob/master/src/img/AluraConvert.png)" alt="Alura Converter"></a>
+  <a href=""><img src="src/img/AluraConvert.png"></a>
 </h1>
 
 ## Introducción

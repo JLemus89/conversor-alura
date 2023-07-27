@@ -36,10 +36,10 @@ public class Medidas extends JFrame {
                 double resultado = convertirUnidades(medidaOrigen, medidaDestino, cantidad);
 
                 // Formatear el resultado con 7 decimales
-                DecimalFormat decimalFormat = new DecimalFormat("#.#######");
+                DecimalFormat decimalFormat = new DecimalFormat("#.#####");
                 String resultadoFormateado = decimalFormat.format(resultado);
 
-                CantidadConvertida.setText(resultadoFormateado);
+                CantidadConvertida.setText(medidaDestino + ": " + resultadoFormateado);
             }
         });
 

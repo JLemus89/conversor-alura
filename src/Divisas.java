@@ -56,10 +56,10 @@ public class Divisas extends JFrame {
                         double convertedAmount = amount * exchangeRate;
 
                         // Formatear el resultado con 7 decimales
-                        DecimalFormat decimalFormat = new DecimalFormat("#.#######");
+                        DecimalFormat decimalFormat = new DecimalFormat("#.#####");
                         String resultadoFormateado = decimalFormat.format(convertedAmount);
 
-                        CantidadConvertida.setText(resultadoFormateado);
+                        CantidadConvertida.setText(toCurrency + ": " + resultadoFormateado);
                     } else {
                         CantidadConvertida.setText("Error: Unable to fetch exchange rates.");
                     }
