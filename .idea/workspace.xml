@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dfcd253-28ac-4b23-9526-947453e4a154" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bienvenido.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bienvenido.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bienvenido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bienvenido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Divisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Divisas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Medidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medidas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temperatura.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temperatura.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Temperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temperatura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +32,10 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2SUe4FI2Z5peP4euO52NQL8mCgi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -94,7 +96,9 @@
       <workItem from="1690340090071" duration="2794000" />
       <workItem from="1690343460658" duration="452000" />
       <workItem from="1690378725387" duration="671000" />
-      <workItem from="1690460765989" duration="9038000" />
+      <workItem from="1690460765989" duration="9924000" />
+      <workItem from="1690477247591" duration="455000" />
+      <workItem from="1690477714858" duration="4157000" />
     </task>
     <servers />
   </component>

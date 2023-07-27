@@ -31,9 +31,16 @@ public class Temperatura extends JFrame {
                     return;
                 }
 
+                double cantidad;
+                try {
+                    cantidad = Integer.parseInt(cantidadStr);
+                } catch (NumberFormatException ex) {
+                    JOptionPane.showMessageDialog(Temperatura.this, "La cantidad debe ser un número.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+
                 String temperaturaOrigen = (String) TemperaturaOrigen.getSelectedItem();
                 String temperaturaDestino = (String) TemperaturaDestino.getSelectedItem();
-                double cantidad = Double.parseDouble(cantidadStr);
 
 
                 double resultado = 0;

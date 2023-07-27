@@ -34,10 +34,17 @@ public class Divisas extends JFrame {
                     JOptionPane.showMessageDialog(Divisas.this, "Debe ingresar un valor para la cantidad.", "Error", JOptionPane.ERROR_MESSAGE);
                     return;
                 }
+                double cantidad;
+                try {
+                    cantidad = Double.parseDouble(cantidadStr);
+                } catch (NumberFormatException ex) {
+                    JOptionPane.showMessageDialog(Divisas.this, "La cantidad ingresada no es un número válido.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
 
                 String fromCurrency = (String) MonedaOrigen.getSelectedItem();
                 String toCurrency = (String) MonedaDestino.getSelectedItem();
-                double amount = Double.parseDouble(cantidadStr);
+                double amount = cantidad;
 
                 try {
                     String apiUrl = "https://v6.exchangerate-api.com/v6/fe40a0b6f78de6373dba3c0c/latest/" + fromCurrency;

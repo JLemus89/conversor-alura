@@ -29,15 +29,21 @@ public class Medidas extends JFrame {
         convertirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String cantidadStr = textField1.getText();
+                String cantidadStr =  textField1.getText();
                 if (cantidadStr.isEmpty()) {
                     JOptionPane.showMessageDialog(Medidas.this, "Debe ingresar un valor para la cantidad.", "Error", JOptionPane.ERROR_MESSAGE);
                     return;
                 }
+                double  cantidad;
+                try {
+                    cantidad = Integer.parseInt(cantidadStr);
+                } catch (NumberFormatException ex) {
+                    JOptionPane.showMessageDialog(Medidas.this, "La cantidad debe ser un número.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+
                 String medidaOrigen = (String) MedidaOrigen.getSelectedItem();
                 String medidaDestino = (String) MedidaDestino.getSelectedItem();
-                double cantidad = Double.parseDouble(cantidadStr);
-
                 double resultado = convertirUnidades(medidaOrigen, medidaDestino, cantidad);
 
                 // Formatear el resultado con 7 decimales
